@@ -146,7 +146,7 @@ function Portfolio() {
                   </span>
                   {project.description}
                 </p>
-                <div className="flex gap-2">
+                <div className="flex gap-2 flex-wrap">
                   {project.tags.map((role) => (
                     <div
                       key={role}
