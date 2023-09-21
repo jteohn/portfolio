@@ -9,7 +9,7 @@ function Home() {
     <div className={darkMode ? "dark" : ""}>
       <div className="App h-max-100vh flex flex-col justify-start">
         <Navbar />
-        <div className="flex flex-col flex-grow items-start relative mx-auto pl-20 pr-14 md:mx-48 md:p-0 md:pt-8 lg:mx-56 lg:pt-4 text-grey-400 dark:text-beige-300">
+        <div className="flex flex-col flex-grow items-start relative mx-auto pl-20 pr-14 md:mx-48 md:p-0 md:pt-8 lg:mx-56 lg:pt-8 text-grey-400 dark:text-beige-300">
           <div className="mt-32">
             <div className="h-32 w-32 md:h-48 md:w-48 lg:h-60 lg:w-60 flex items-center justify-center relative inset-0 mx-auto -mt-28 mb-3 md:mb-5">
               <div className="h-full w-full rounded-full overflow-hidden border-4 md:border-8 border-white absolute dark:border-beige-400">
