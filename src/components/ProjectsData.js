@@ -11,7 +11,7 @@ const ProjectsData = [
     image2: require("../assets/ketchup/ketchup2.png"),
     image3: require("../assets/ketchup/ketchup3.png"),
     image4: require("../assets/ketchup/ketchup4.png"),
-    tags: ["backend"],
+    tags: ["react", "sequelize", "express", "bcrypt", "axios", "nodemailer"],
   },
   {
     id: "project-handshake",
@@ -25,7 +25,7 @@ const ProjectsData = [
     image2: require("../assets/handshake/handshake2.png"),
     image3: require("../assets/handshake/handshake3.png"),
     image4: require("../assets/handshake/handshake4.png"),
-    tags: ["backend"],
+    tags: ["react", "sequelize", "express", "auth0", "axios", "JWT"],
   },
   {
     id: "project-munch",
@@ -39,7 +39,7 @@ const ProjectsData = [
     image2: require("../assets/munch/munch2.png"),
     image3: require("../assets/munch/munch3.png"),
     image4: require("../assets/munch/munch4.png"),
-    tags: ["frontend", "backend"],
+    tags: ["react", "firebase", "MUI", "axios"],
   },
   {
     id: "project-notes",
@@ -53,7 +53,7 @@ const ProjectsData = [
     image2: require("../assets/notes/notes2.png"),
     image3: require("../assets/notes/notes3.png"),
     image4: require("../assets/notes/notes4.png"),
-    tags: ["frontend"],
+    tags: ["HTML", "CSS", "JavaScript"],
   },
 ];
 

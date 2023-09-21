@@ -8,7 +8,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={`${darkMode ? "dark" : ""} navbar-transition`}>
       <div className="flex gap-4 justify-end m-8 pr-2 lg:pr-10 text-grey-200 font-semibold items-center cursor-pointer">
         {darkMode ? (
           <div className="rounded-full p-2 hover:bg-grey-300  dark:hover:bg-beige-400 transition duration-300 ease-in-out">
