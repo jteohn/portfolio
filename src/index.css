@@ -1,13 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-xl: url("./assets/lightmode/light-bgxl.png");
+  --light-lg: url("./assets/lightmode/light-bglg.png");
+  --light-md: url("./assets/lightmode/light-bgmd.png");
+  --light-sm: url("./assets/lightmode/light-bgsm.png");
+  --dark-xl: url("./assets/darkmode/dark-bgxl.png");
+  --dark-lg: url("./assets/darkmode/dark-bglg.png");
+  --dark-md: url("./assets/darkmode/dark-bgmd.png");
+  --dark-sm: url("./assets/darkmode/dark-bgsm.png");
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
+  /* background-image: url("./assets/lightmode/light-bgxl.png"); */
+  background-image: var(--light-xl);
+  background-size: cover;
+  background-position: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.dark {
+  background-image: var(--dark-xl);
+}
+
+@media (max-width: 1024px) {
+  body {
+    /* background-image: url("./assets/lightmode/light-bglg.png"); */
+    background-image: var(--light-lg);
+  }
+
+  body.dark {
+    background-image: var(--dark-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    /* background-image: url("./assets/lightmode/light-bgmd.png"); */
+    background-image: var(--light-md);
+  }
+
+  body.dark {
+    background-image: var(--dark-md);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    /* background-image: url("./assets/lightmode/light-bgsm.png"); */
+    background-image: var(--light-sm);
+  }
+
+  body.dark {
+    background-image: var(--dark-sm);
+  }
 }
