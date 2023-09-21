@@ -9,9 +9,9 @@ function Home() {
     <div className={darkMode ? "dark" : ""}>
       <div className="App h-max-100vh flex flex-col justify-start">
         <Navbar />
-        <div className="flex flex-col flex-grow items-start relative mx-auto pl-20 pr-14 md:mx-48 md:p-0 md:pt-8 lg:mx-56 lg:pt-8 text-grey-400 dark:text-beige-300">
+        <div className="flex flex-col flex-grow items-start relative mx-auto pl-20 pr-14 md:mx-48 md:p-0 md:pt-8 lg:mx-56 lg:pt-6 text-grey-400 dark:text-beige-300">
           <div className="mt-32">
-            <div className="h-32 w-32 md:h-48 md:w-48 lg:h-60 lg:w-60 flex items-center justify-center relative inset-0 mx-auto -mt-28 mb-3 md:mb-5">
+            <div className="h-32 w-32 md:h-48 md:w-48 lg:h-56 lg:w-56 flex items-center justify-center relative inset-0 mx-auto -mt-28 mb-3 md:mb-5">
               <div className="h-full w-full rounded-full overflow-hidden border-4 md:border-8 border-white absolute dark:border-beige-400">
                 <img
                   src={jaelyn}
@@ -29,8 +29,8 @@ function Home() {
             </div>
           </div>
 
-          <div className="mt-5 md:mt-8 lg:mt-12">
-            <div className="text-left text-xs md:text-lg lg:text-xl lg:w-4/5 lg:pr-4 dark:text-beige-500">
+          <div className="mt-5 md:mt-8 lg:mt-6">
+            <div className="text-left text-xs md:text-lg lg:text-lg lg:w-4/5 lg:pr-4 dark:text-beige-500">
               <strong>Hello, I'm Jaelyn!</strong> My journey has taken an
               exciting turn as I've discovered my passion for coding and
               creating innovation solutions with technology.
@@ -47,7 +47,7 @@ function Home() {
           </div>
 
           <div>
-            <div className=" flex mt-10 mb-10 gap-2 md:gap-3 lg:gap-3">
+            <div className=" flex mt-6 mb-10 gap-2 md:gap-3 lg:gap-3">
               <a
                 href="https://www.linkedin.com/in/jaelynteo/"
                 target="_blank"

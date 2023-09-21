@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { DarkModeProvider } from "./utils/darkMode";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <BrowserRouter>
     <React.StrictMode>
