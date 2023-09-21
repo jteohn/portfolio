@@ -32,7 +32,7 @@ function Navbar() {
 
         <div
           className="hover:text-grey-400 transition duration-250 ease-in-out dark:text-beige-200 dark:hover:text-beige-400"
-          onClick={() => navigate("/portfolio")}
+          onClick={() => navigate("/projects")}
         >
           PORTFOLIO
         </div>
