@@ -36,9 +36,9 @@ function Home() {
               creating innovative solutions with technology.
               <br />
               <br />
-              I've always held a deep appreciation for technology and desire to
-              make positive impacts on society. For me, coding is more than just
-              lines and algorithms - it's about creating meaningful change.
+              I've always held a deep appreciation for technology and a desire
+              to make positive impacts on society. For me, coding is more than
+              just lines and algorithms; it's about creating meaningful change.
               <br />
               <br />
               If you'd like to know more or connect, I'm always down for coffee!
