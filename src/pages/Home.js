@@ -33,11 +33,11 @@ function Home() {
             <div className="text-left text-xs md:text-lg lg:text-lg lg:w-4/5 lg:pr-4 dark:text-beige-500">
               <strong>Hello, I'm Jaelyn!</strong> My journey has taken an
               exciting turn as I've discovered my passion for coding and
-              creating innovation solutions with technology.
+              creating innovative solutions with technology.
               <br />
               <br />
               I've always held a deep appreciation for technology and desire to
-              make a positive impact on society. For me, coding isn't just about
+              make positive impacts on society. For me, coding isn't just about
               lines and algorithms; it's a means to create meaningful change.
               <br />
               <br />
