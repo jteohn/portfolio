@@ -16,7 +16,7 @@ const ProjectsData = [
   {
     id: "project-handshake",
     title: "Handshake",
-    url: "https://munch-m.web.app/",
+    url: "https://project-handshake.netlify.app/",
     github: "https://github.com/jordung/project-handshake",
     subheader: "Empowering Volunteers, Connecting Communities",
     description:
